@@ -1,0 +1,457 @@
+{
+  "repo_note": "Replay into an EMPTY GitHub repo; numbers then match this dataset.",
+  "initiative": "Security Automation",
+  "story": "Scanning and policy automation with three blockers: delivery risk that cost metrics alone would miss.",
+  "slots": [
+    {
+      "slot": 1,
+      "pr": 31,
+      "issue": 7
+    },
+    {
+      "slot": 2,
+      "pr": 36,
+      "issue": 8
+    },
+    {
+      "slot": 3,
+      "pr": 35,
+      "issue": 9
+    }
+  ],
+  "steps": [
+    {
+      "step": "issue",
+      "number": 1,
+      "title": "SAST in every pipeline",
+      "labels": [
+        "aev-points:5",
+        "pod-appsec",
+        "agent-work"
+      ],
+      "body": "Team: AppSec. Size: 5 points. Security Automation initiative, Lakeshore Components (fictional demo)."
+    },
+    {
+      "step": "issue",
+      "number": 2,
+      "title": "Secret scanning with push protection",
+      "labels": [
+        "aev-points:3",
+        "pod-appsec",
+        "human-work"
+      ],
+      "body": "Team: AppSec. Size: 3 points. Security Automation initiative, Lakeshore Components (fictional demo)."
+    },
+    {
+      "step": "issue",
+      "number": 3,
+      "title": "Dependency vulnerability SLA report",
+      "labels": [
+        "aev-points:5",
+        "pod-appsec",
+        "agent-work"
+      ],
+      "body": "Team: AppSec. Size: 5 points. Security Automation initiative, Lakeshore Components (fictional demo)."
+    },
+    {
+      "step": "issue",
+      "number": 4,
+      "title": "Cloud posture baseline (CIS)",
+      "labels": [
+        "aev-points:5",
+        "pod-cloudsec",
+        "agent-work"
+      ],
+      "body": "Team: CloudSec. Size: 5 points. Security Automation initiative, Lakeshore Components (fictional demo)."
+    },
+    {
+      "step": "issue",
+      "number": 5,
+      "title": "IAM least-privilege review",
+      "labels": [
+        "aev-points:5",
+        "pod-cloudsec",
+        "human-work"
+      ],
+      "body": "Team: CloudSec. Size: 5 points. Security Automation initiative, Lakeshore Components (fictional demo)."
+    },
+    {
+      "step": "issue",
+      "number": 6,
+      "title": "Guardrail policies as code",
+      "labels": [
+        "aev-points:5",
+        "pod-cloudsec",
+        "mixed-work"
+      ],
+      "body": "Team: CloudSec. Size: 5 points. Security Automation initiative, Lakeshore Components (fictional demo)."
+    },
+    {
+      "step": "issue",
+      "number": 7,
+      "title": "Container image signing",
+      "labels": [
+        "aev-points:3",
+        "pod-appsec",
+        "agent-work"
+      ],
+      "body": "Team: AppSec. Size: 3 points. Security Automation initiative, Lakeshore Components (fictional demo)."
+    },
+    {
+      "step": "issue",
+      "number": 8,
+      "title": "SBOM for every release",
+      "labels": [
+        "aev-points:3",
+        "pod-appsec",
+        "agent-work"
+      ],
+      "body": "Team: AppSec. Size: 3 points. Security Automation initiative, Lakeshore Components (fictional demo)."
+    },
+    {
+      "step": "issue",
+      "number": 9,
+      "title": "Alert routing to owners",
+      "labels": [
+        "aev-points:3",
+        "pod-cloudsec",
+        "agent-work"
+      ],
+      "body": "Team: CloudSec. Size: 3 points. Security Automation initiative, Lakeshore Components (fictional demo)."
+    },
+    {
+      "step": "issue",
+      "number": 10,
+      "title": "Pen test remediation tracker",
+      "labels": [
+        "aev-points:5",
+        "pod-appsec",
+        "human-work",
+        "blocked"
+      ],
+      "body": "Team: AppSec. Size: 5 points. Security Automation initiative, Lakeshore Components (fictional demo)."
+    },
+    {
+      "step": "issue",
+      "number": 11,
+      "title": "Network segmentation for plant OT",
+      "labels": [
+        "aev-points:8",
+        "pod-cloudsec",
+        "human-work",
+        "blocked"
+      ],
+      "body": "Team: CloudSec. Size: 8 points. Security Automation initiative, Lakeshore Components (fictional demo)."
+    },
+    {
+      "step": "issue",
+      "number": 12,
+      "title": "Vendor access reviews",
+      "labels": [
+        "aev-points:5",
+        "pod-cloudsec",
+        "human-work",
+        "blocked"
+      ],
+      "body": "Team: CloudSec. Size: 5 points. Security Automation initiative, Lakeshore Components (fictional demo)."
+    },
+    {
+      "step": "issue",
+      "number": 13,
+      "title": "Threat model templates",
+      "labels": [
+        "aev-points:3",
+        "pod-appsec",
+        "human-work"
+      ],
+      "body": "Team: AppSec. Size: 3 points. Security Automation initiative, Lakeshore Components (fictional demo)."
+    },
+    {
+      "step": "issue",
+      "number": 14,
+      "title": "DAST for public apps",
+      "labels": [
+        "aev-points:5",
+        "pod-appsec",
+        "agent-work"
+      ],
+      "body": "Team: AppSec. Size: 5 points. Security Automation initiative, Lakeshore Components (fictional demo)."
+    },
+    {
+      "step": "issue",
+      "number": 15,
+      "title": "Key rotation automation",
+      "labels": [
+        "aev-points:5",
+        "pod-cloudsec",
+        "agent-work"
+      ],
+      "body": "Team: CloudSec. Size: 5 points. Security Automation initiative, Lakeshore Components (fictional demo)."
+    },
+    {
+      "step": "issue",
+      "number": 16,
+      "title": "Incident runbooks",
+      "labels": [
+        "aev-points:5",
+        "pod-cloudsec",
+        "human-work"
+      ],
+      "body": "Team: CloudSec. Size: 5 points. Security Automation initiative, Lakeshore Components (fictional demo)."
+    },
+    {
+      "step": "issue",
+      "number": 17,
+      "title": "Security champions training",
+      "labels": [
+        "aev-points:3",
+        "pod-appsec",
+        "human-work"
+      ],
+      "body": "Team: AppSec. Size: 3 points. Security Automation initiative, Lakeshore Components (fictional demo)."
+    },
+    {
+      "step": "issue",
+      "number": 18,
+      "title": "Central logging to the SIEM",
+      "labels": [
+        "aev-points:5",
+        "pod-cloudsec",
+        "agent-work"
+      ],
+      "body": "Team: CloudSec. Size: 5 points. Security Automation initiative, Lakeshore Components (fictional demo)."
+    },
+    {
+      "step": "issue",
+      "number": 19,
+      "title": "WAF rules for the supplier portal",
+      "labels": [
+        "aev-points:3",
+        "pod-appsec",
+        "agent-work"
+      ],
+      "body": "Team: AppSec. Size: 3 points. Security Automation initiative, Lakeshore Components (fictional demo)."
+    },
+    {
+      "step": "pr",
+      "number": 20,
+      "issue": 1,
+      "title": "SAST in every pipeline (part 1 of 2)",
+      "link": "part_of",
+      "agent": true,
+      "developer": "b-mensah",
+      "path": "src/appsec/sast-in-every-pipeline/part-1.md",
+      "hold": false,
+      "slot": null,
+      "planned_merge": "2026-10-11T14:00:00Z"
+    },
+    {
+      "step": "pr",
+      "number": 21,
+      "issue": 1,
+      "title": "SAST in every pipeline (part 2 of 2)",
+      "link": "fixes",
+      "agent": true,
+      "developer": "b-mensah",
+      "path": "src/appsec/sast-in-every-pipeline/part-2.md",
+      "hold": false,
+      "slot": null,
+      "planned_merge": "2026-10-13T15:00:00Z"
+    },
+    {
+      "step": "pr",
+      "number": 22,
+      "issue": 2,
+      "title": "Secret scanning with push protection",
+      "link": "fixes",
+      "agent": false,
+      "developer": "c-ortiz",
+      "path": "src/appsec/secret-scanning-with-push-protection/part-1.md",
+      "hold": false,
+      "slot": null,
+      "planned_merge": "2026-10-15T14:00:00Z"
+    },
+    {
+      "step": "pr",
+      "number": 23,
+      "issue": 3,
+      "title": "Dependency vulnerability SLA report (part 1 of 2)",
+      "link": "part_of",
+      "agent": true,
+      "developer": "d-kim",
+      "path": "src/appsec/dependency-vulnerability-sla-report/part-1.md",
+      "hold": false,
+      "slot": null,
+      "planned_merge": "2026-10-15T14:00:00Z"
+    },
+    {
+      "step": "pr",
+      "number": 24,
+      "issue": 3,
+      "title": "Dependency vulnerability SLA report (part 2 of 2)",
+      "link": "fixes",
+      "agent": true,
+      "developer": "d-kim",
+      "path": "src/appsec/dependency-vulnerability-sla-report/part-2.md",
+      "hold": false,
+      "slot": null,
+      "planned_merge": "2026-10-17T15:00:00Z"
+    },
+    {
+      "step": "pr",
+      "number": 25,
+      "issue": 4,
+      "title": "Cloud posture baseline (CIS) (part 1 of 2)",
+      "link": "part_of",
+      "agent": true,
+      "developer": "e-haddad",
+      "path": "src/cloudsec/cloud-posture-baseline-cis/part-1.md",
+      "hold": false,
+      "slot": null,
+      "planned_merge": "2026-10-18T14:00:00Z"
+    },
+    {
+      "step": "pr",
+      "number": 26,
+      "issue": 7,
+      "title": "Container image signing (part 1 of 2)",
+      "link": "part_of",
+      "agent": true,
+      "developer": "b-mensah",
+      "path": "src/appsec/container-image-signing/part-1.md",
+      "hold": false,
+      "slot": null,
+      "planned_merge": "2026-10-20T14:00:00Z"
+    },
+    {
+      "step": "pr",
+      "number": 27,
+      "issue": 4,
+      "title": "Cloud posture baseline (CIS) (part 2 of 2)",
+      "link": "fixes",
+      "agent": true,
+      "developer": "e-haddad",
+      "path": "src/cloudsec/cloud-posture-baseline-cis/part-2.md",
+      "hold": false,
+      "slot": null,
+      "planned_merge": "2026-10-20T15:00:00Z"
+    },
+    {
+      "step": "pr",
+      "number": 28,
+      "issue": 5,
+      "title": "IAM least-privilege review",
+      "link": "fixes",
+      "agent": false,
+      "developer": "f-lindqvist",
+      "path": "src/cloudsec/iam-least-privilege-review/part-1.md",
+      "hold": false,
+      "slot": null,
+      "planned_merge": "2026-10-22T14:00:00Z"
+    },
+    {
+      "step": "pr",
+      "number": 29,
+      "issue": 6,
+      "title": "Guardrail policies as code (part 1 of 2)",
+      "link": "part_of",
+      "agent": true,
+      "developer": "a-novak",
+      "path": "src/cloudsec/guardrail-policies-as-code/part-1.md",
+      "hold": false,
+      "slot": null,
+      "planned_merge": "2026-10-22T14:00:00Z"
+    },
+    {
+      "step": "pr",
+      "number": 30,
+      "issue": 9,
+      "title": "Alert routing to owners (part 1 of 2)",
+      "link": "part_of",
+      "agent": true,
+      "developer": "d-kim",
+      "path": "src/cloudsec/alert-routing-to-owners/part-1.md",
+      "hold": false,
+      "slot": null,
+      "planned_merge": "2026-10-22T14:00:00Z"
+    },
+    {
+      "step": "pr",
+      "number": 31,
+      "issue": 7,
+      "title": "Container image signing (part 2 of 2)",
+      "link": "fixes",
+      "agent": true,
+      "developer": "b-mensah",
+      "path": "src/appsec/container-image-signing/part-2.md",
+      "hold": true,
+      "slot": 1,
+      "planned_merge": "2026-10-22T15:00:00Z"
+    },
+    {
+      "step": "pr",
+      "number": 32,
+      "issue": 8,
+      "title": "SBOM for every release (part 1 of 2)",
+      "link": "part_of",
+      "agent": true,
+      "developer": "c-ortiz",
+      "path": "src/appsec/sbom-for-every-release/part-1.md",
+      "hold": false,
+      "slot": null,
+      "planned_merge": "2026-10-23T14:00:00Z"
+    },
+    {
+      "step": "pr",
+      "number": 33,
+      "issue": 14,
+      "title": "DAST for public apps",
+      "link": "part_of",
+      "agent": true,
+      "developer": "c-ortiz",
+      "path": "src/appsec/dast-for-public-apps/part-1.md",
+      "hold": false,
+      "slot": null,
+      "planned_merge": "2026-10-23T14:00:00Z"
+    },
+    {
+      "step": "pr",
+      "number": 34,
+      "issue": 6,
+      "title": "Guardrail policies as code (part 2 of 2)",
+      "link": "fixes",
+      "agent": false,
+      "developer": "a-novak",
+      "path": "src/cloudsec/guardrail-policies-as-code/part-2.md",
+      "hold": false,
+      "slot": null,
+      "planned_merge": "2026-10-24T15:00:00Z"
+    },
+    {
+      "step": "pr",
+      "number": 35,
+      "issue": 9,
+      "title": "Alert routing to owners (part 2 of 2)",
+      "link": "fixes",
+      "agent": true,
+      "developer": "d-kim",
+      "path": "src/cloudsec/alert-routing-to-owners/part-2.md",
+      "hold": true,
+      "slot": 3,
+      "planned_merge": "2026-10-24T15:00:00Z"
+    },
+    {
+      "step": "pr",
+      "number": 36,
+      "issue": 8,
+      "title": "SBOM for every release (part 2 of 2)",
+      "link": "fixes",
+      "agent": true,
+      "developer": "c-ortiz",
+      "path": "src/appsec/sbom-for-every-release/part-2.md",
+      "hold": true,
+      "slot": 2,
+      "planned_merge": "2026-10-25T15:00:00Z"
+    }
+  ]
+}

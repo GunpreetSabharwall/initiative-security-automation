@@ -1,0 +1,31 @@
+name: Seed demo
+
+# One-time setup: replays seed/seed-plan.json into this (empty) repository.
+# Safe to run again: it resumes where it stopped.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+concurrency:
+  group: seed
+  cancel-in-progress: false
+
+jobs:
+  seed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install --quiet requests
+      - name: Seed issues and pull requests
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          SEED_PAUSE: "1.5"
+        run: python scripts/seed_demo.py seed

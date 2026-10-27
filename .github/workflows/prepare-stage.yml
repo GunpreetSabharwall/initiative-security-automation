@@ -1,0 +1,32 @@
+name: Prepare stage
+
+# Run the day before a demo: merges the held agent PR of the next stage slot
+# (or the slot you name), so it is accepted and still inside AEV's 14-day
+# window when you revert it on stage. Then run Program Dashboard in
+# Program-Hub-AI to refresh delivery and value.
+on:
+  workflow_dispatch:
+    inputs:
+      slot:
+        description: "Stage slot (1, 2 or 3). Leave empty for the next unused one."
+        default: ""
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  stage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install --quiet requests
+      - name: Merge the held PR
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          SLOT: ${{ inputs.slot }}
+        run: python scripts/seed_demo.py stage $SLOT
